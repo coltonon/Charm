@@ -21,6 +21,7 @@ static void Main(string[] args)
 Yep, it's as easy as that.
 
 Sample:
+
 ![](https://i.imgur.com/2qH5oMX.png)
 
 ### Why Charm?
