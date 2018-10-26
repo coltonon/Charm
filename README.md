@@ -20,6 +20,9 @@ static void Main(string[] args)
 
 Yep, it's as easy as that.
 
+Sample:
+![](https://i.imgur.com/2qH5oMX.png)
+
 ### Why Charm?
 I normally don't condone using C# for these types of purposes, it makes very little sense.  I was prompted to make this after finishing my C++ version, and seeing others still writing overlays with SharpDX and winforms.  My idea was, knowing there are a great many people who won't switch anytime soon to C++, it's better to give them a proper platform purpose built for overlays and external cheats.  I still highly recommend you go and learn C++ over C#, but a toolkit like this will help you to at least 
 
