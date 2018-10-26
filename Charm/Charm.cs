@@ -185,7 +185,7 @@ public class Charm
             RPM.ReadProcessMemory(this.hProc, addr, Buffer, (ulong)Marshal.SizeOf(typeof(T)), out ByteRead);
             IntPtr ptr = Marshal.AllocHGlobal(Marshal.SizeOf(typeof(T)));
             Marshal.Copy(Buffer, 0, ptr, Marshal.SizeOf(typeof(T)));
-            T t = (T)Marshal.PtrToStructure(ptr, typeof(T));
+            T t = Marshal.PtrToStructure<T>(ptr);
             Marshal.FreeHGlobal(ptr);
             return t;
         }
